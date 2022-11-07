@@ -1,0 +1,6 @@
+framework module Pods_ParfotekaApp {
+  umbrella header "Pods-ParfotekaApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

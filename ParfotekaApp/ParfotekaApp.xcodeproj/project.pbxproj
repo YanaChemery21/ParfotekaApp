@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		457FDBEF2919ABD10095997C /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FDBEE2919ABD10095997C /* DatabaseManager.swift */; };
+		457FDBF12919ADD30095997C /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FDBF02919ADD30095997C /* AuthManager.swift */; };
+		457FDBF32919AE660095997C /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457FDBF22919AE660095997C /* StorageManager.swift */; };
 		45A0FBB429194AA400F4F0F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBB329194AA400F4F0F9 /* AppDelegate.swift */; };
 		45A0FBB629194AA400F4F0F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBB529194AA400F4F0F9 /* SceneDelegate.swift */; };
 		45A0FBB829194AA400F4F0F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBB729194AA400F4F0F9 /* HomeViewController.swift */; };
@@ -27,9 +30,16 @@
 		45A0FBE629195F3300F4F0F9 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBE529195F3300F4F0F9 /* SearchResultViewController.swift */; };
 		45A0FBE829195FC900F4F0F9 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBE729195FC900F4F0F9 /* PostEditorViewController.swift */; };
 		45A0FBEA2919600700F4F0F9 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBE92919600700F4F0F9 /* PublishPostViewController.swift */; };
+		45A0FBEC291985DE00F4F0F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45A0FBEB291985DE00F4F0F9 /* GoogleService-Info.plist */; };
+		89AE3A1E3DA4B1EA6C4BD608 /* Pods_ParfotekaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3510632C1852C199F45EE573 /* Pods_ParfotekaApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11D7F2AA2B9FF51640E0D310 /* Pods-ParfotekaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParfotekaApp.release.xcconfig"; path = "Target Support Files/Pods-ParfotekaApp/Pods-ParfotekaApp.release.xcconfig"; sourceTree = "<group>"; };
+		3510632C1852C199F45EE573 /* Pods_ParfotekaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParfotekaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		457FDBEE2919ABD10095997C /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		457FDBF02919ADD30095997C /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		457FDBF22919AE660095997C /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		45A0FBB029194AA400F4F0F9 /* ParfotekaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParfotekaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A0FBB329194AA400F4F0F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45A0FBB529194AA400F4F0F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +62,8 @@
 		45A0FBE529195F3300F4F0F9 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		45A0FBE729195FC900F4F0F9 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
 		45A0FBE92919600700F4F0F9 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		45A0FBEB291985DE00F4F0F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9052752631749DD0B36A629D /* Pods-ParfotekaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParfotekaApp.debug.xcconfig"; path = "Target Support Files/Pods-ParfotekaApp/Pods-ParfotekaApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,17 +71,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89AE3A1E3DA4B1EA6C4BD608 /* Pods_ParfotekaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AA31D15389FD11086A1CCF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3510632C1852C199F45EE573 /* Pods_ParfotekaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		457FDBED2919AA950095997C /* General */ = {
+			isa = PBXGroup;
+			children = (
+				45A0FBDB29195DAC00F4F0F9 /* PostViewController.swift */,
+				45A0FBDD29195E4700F4F0F9 /* EditProfileViewController.swift */,
+				45A0FBDF29195E9100F4F0F9 /* SettingsViewController.swift */,
+				45A0FBE129195ECC00F4F0F9 /* ListViewController.swift */,
+				45A0FBE329195F0200F4F0F9 /* SearchViewController.swift */,
+				45A0FBE529195F3300F4F0F9 /* SearchResultViewController.swift */,
+				45A0FBE729195FC900F4F0F9 /* PostEditorViewController.swift */,
+				45A0FBE92919600700F4F0F9 /* PublishPostViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		45A0FBA729194AA400F4F0F9 = {
 			isa = PBXGroup;
 			children = (
 				45A0FBB229194AA400F4F0F9 /* ParfotekaApp */,
 				45A0FBB129194AA400F4F0F9 /* Products */,
+				CC50623D4A5F8CD0EDDC2B29 /* Pods */,
+				0AA31D15389FD11086A1CCF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +161,10 @@
 			children = (
 				45A0FBB329194AA400F4F0F9 /* AppDelegate.swift */,
 				45A0FBB529194AA400F4F0F9 /* SceneDelegate.swift */,
+				45A0FBEB291985DE00F4F0F9 /* GoogleService-Info.plist */,
+				457FDBEE2919ABD10095997C /* DatabaseManager.swift */,
+				457FDBF02919ADD30095997C /* AuthManager.swift */,
+				457FDBF22919AE660095997C /* StorageManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -152,14 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				45A0FBD629195CFB00F4F0F9 /* Onboarding */,
-				45A0FBDB29195DAC00F4F0F9 /* PostViewController.swift */,
-				45A0FBDD29195E4700F4F0F9 /* EditProfileViewController.swift */,
-				45A0FBDF29195E9100F4F0F9 /* SettingsViewController.swift */,
-				45A0FBE129195ECC00F4F0F9 /* ListViewController.swift */,
-				45A0FBE329195F0200F4F0F9 /* SearchViewController.swift */,
-				45A0FBE529195F3300F4F0F9 /* SearchResultViewController.swift */,
-				45A0FBE729195FC900F4F0F9 /* PostEditorViewController.swift */,
-				45A0FBE92919600700F4F0F9 /* PublishPostViewController.swift */,
+				457FDBED2919AA950095997C /* General */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -173,6 +208,15 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
+		CC50623D4A5F8CD0EDDC2B29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9052752631749DD0B36A629D /* Pods-ParfotekaApp.debug.xcconfig */,
+				11D7F2AA2B9FF51640E0D310 /* Pods-ParfotekaApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 45A0FBC429194AA500F4F0F9 /* Build configuration list for PBXNativeTarget "ParfotekaApp" */;
 			buildPhases = (
+				9C8C2B4132AE0BDACE254E5A /* [CP] Check Pods Manifest.lock */,
 				45A0FBAC29194AA400F4F0F9 /* Sources */,
 				45A0FBAD29194AA400F4F0F9 /* Frameworks */,
 				45A0FBAE29194AA400F4F0F9 /* Resources */,
+				6093CC59A23FA8FAEA788FE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,12 +278,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				45A0FBC029194AA500F4F0F9 /* LaunchScreen.storyboard in Resources */,
+				45A0FBEC291985DE00F4F0F9 /* GoogleService-Info.plist in Resources */,
 				45A0FBBD29194AA500F4F0F9 /* Assets.xcassets in Resources */,
 				45A0FBBB29194AA400F4F0F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6093CC59A23FA8FAEA788FE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParfotekaApp/Pods-ParfotekaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParfotekaApp/Pods-ParfotekaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParfotekaApp/Pods-ParfotekaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C8C2B4132AE0BDACE254E5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParfotekaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		45A0FBAC29194AA400F4F0F9 /* Sources */ = {
@@ -251,12 +340,15 @@
 				45A0FBB829194AA400F4F0F9 /* HomeViewController.swift in Sources */,
 				45A0FBDA29195D5400F4F0F9 /* RegistrationViewController.swift in Sources */,
 				45A0FBE829195FC900F4F0F9 /* PostEditorViewController.swift in Sources */,
+				457FDBF32919AE660095997C /* StorageManager.swift in Sources */,
 				45A0FBDC29195DAC00F4F0F9 /* PostViewController.swift in Sources */,
+				457FDBEF2919ABD10095997C /* DatabaseManager.swift in Sources */,
 				45A0FBD129195BA300F4F0F9 /* NotificationsViewController.swift in Sources */,
 				45A0FBE629195F3300F4F0F9 /* SearchResultViewController.swift in Sources */,
 				45A0FBD829195D3500F4F0F9 /* LoginViewController.swift in Sources */,
 				45A0FBE429195F0200F4F0F9 /* SearchViewController.swift in Sources */,
 				45A0FBD329195BDD00F4F0F9 /* ProfileViewController.swift in Sources */,
+				457FDBF12919ADD30095997C /* AuthManager.swift in Sources */,
 				45A0FBB429194AA400F4F0F9 /* AppDelegate.swift in Sources */,
 				45A0FBB629194AA400F4F0F9 /* SceneDelegate.swift in Sources */,
 				45A0FBE229195ECC00F4F0F9 /* ListViewController.swift in Sources */,
@@ -402,6 +494,7 @@
 		};
 		45A0FBC529194AA500F4F0F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9052752631749DD0B36A629D /* Pods-ParfotekaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -430,6 +523,7 @@
 		};
 		45A0FBC629194AA500F4F0F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D7F2AA2B9FF51640E0D310 /* Pods-ParfotekaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
