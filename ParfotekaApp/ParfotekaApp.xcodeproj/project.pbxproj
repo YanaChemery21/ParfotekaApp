@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		45A0FBB429194AA400F4F0F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBB329194AA400F4F0F9 /* AppDelegate.swift */; };
 		45A0FBB629194AA400F4F0F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBB529194AA400F4F0F9 /* SceneDelegate.swift */; };
-		45A0FBB829194AA400F4F0F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBB729194AA400F4F0F9 /* ViewController.swift */; };
+		45A0FBB829194AA400F4F0F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBB729194AA400F4F0F9 /* HomeViewController.swift */; };
 		45A0FBBB29194AA400F4F0F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A0FBB929194AA400F4F0F9 /* Main.storyboard */; };
 		45A0FBBD29194AA500F4F0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45A0FBBC29194AA500F4F0F9 /* Assets.xcassets */; };
 		45A0FBC029194AA500F4F0F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45A0FBBE29194AA500F4F0F9 /* LaunchScreen.storyboard */; };
+		45A0FBCD29195A8100F4F0F9 /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBCC29195A8100F4F0F9 /* ExploreViewController.swift */; };
+		45A0FBCF29195B2200F4F0F9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBCE29195B2200F4F0F9 /* CameraViewController.swift */; };
+		45A0FBD129195BA300F4F0F9 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBD029195BA300F4F0F9 /* NotificationsViewController.swift */; };
+		45A0FBD329195BDD00F4F0F9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBD229195BDD00F4F0F9 /* ProfileViewController.swift */; };
+		45A0FBD829195D3500F4F0F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBD729195D3500F4F0F9 /* LoginViewController.swift */; };
+		45A0FBDA29195D5400F4F0F9 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBD929195D5400F4F0F9 /* RegistrationViewController.swift */; };
+		45A0FBDC29195DAC00F4F0F9 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBDB29195DAC00F4F0F9 /* PostViewController.swift */; };
+		45A0FBDE29195E4700F4F0F9 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBDD29195E4700F4F0F9 /* EditProfileViewController.swift */; };
+		45A0FBE029195E9100F4F0F9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBDF29195E9100F4F0F9 /* SettingsViewController.swift */; };
+		45A0FBE229195ECC00F4F0F9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBE129195ECC00F4F0F9 /* ListViewController.swift */; };
+		45A0FBE429195F0200F4F0F9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBE329195F0200F4F0F9 /* SearchViewController.swift */; };
+		45A0FBE629195F3300F4F0F9 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBE529195F3300F4F0F9 /* SearchResultViewController.swift */; };
+		45A0FBE829195FC900F4F0F9 /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBE729195FC900F4F0F9 /* PostEditorViewController.swift */; };
+		45A0FBEA2919600700F4F0F9 /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0FBE92919600700F4F0F9 /* PublishPostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		45A0FBB029194AA400F4F0F9 /* ParfotekaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParfotekaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45A0FBB329194AA400F4F0F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45A0FBB529194AA400F4F0F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		45A0FBB729194AA400F4F0F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45A0FBB729194AA400F4F0F9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		45A0FBBA29194AA400F4F0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45A0FBBC29194AA500F4F0F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45A0FBBF29194AA500F4F0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45A0FBC129194AA500F4F0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45A0FBCC29195A8100F4F0F9 /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		45A0FBCE29195B2200F4F0F9 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		45A0FBD029195BA300F4F0F9 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		45A0FBD229195BDD00F4F0F9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		45A0FBD729195D3500F4F0F9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		45A0FBD929195D5400F4F0F9 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		45A0FBDB29195DAC00F4F0F9 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		45A0FBDD29195E4700F4F0F9 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		45A0FBDF29195E9100F4F0F9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		45A0FBE129195ECC00F4F0F9 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		45A0FBE329195F0200F4F0F9 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		45A0FBE529195F3300F4F0F9 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		45A0FBE729195FC900F4F0F9 /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+		45A0FBE92919600700F4F0F9 /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,93 @@
 		45A0FBB229194AA400F4F0F9 /* ParfotekaApp */ = {
 			isa = PBXGroup;
 			children = (
-				45A0FBB329194AA400F4F0F9 /* AppDelegate.swift */,
-				45A0FBB529194AA400F4F0F9 /* SceneDelegate.swift */,
-				45A0FBB729194AA400F4F0F9 /* ViewController.swift */,
-				45A0FBB929194AA400F4F0F9 /* Main.storyboard */,
-				45A0FBBC29194AA500F4F0F9 /* Assets.xcassets */,
-				45A0FBBE29194AA500F4F0F9 /* LaunchScreen.storyboard */,
+				45A0FBCA2919569400F4F0F9 /* Resources */,
+				45A0FBC92919567300F4F0F9 /* Models */,
+				45A0FBC82919565700F4F0F9 /* Views */,
+				45A0FBC72919561B00F4F0F9 /* Controllers */,
 				45A0FBC129194AA500F4F0F9 /* Info.plist */,
 			);
 			path = ParfotekaApp;
+			sourceTree = "<group>";
+		};
+		45A0FBC72919561B00F4F0F9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45A0FBD529195CE900F4F0F9 /* Other */,
+				45A0FBD429195C3800F4F0F9 /* Core Tabs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		45A0FBC82919565700F4F0F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				45A0FBCB2919580B00F4F0F9 /* Storyboards */,
+				45A0FBBC29194AA500F4F0F9 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		45A0FBC92919567300F4F0F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		45A0FBCA2919569400F4F0F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45A0FBB329194AA400F4F0F9 /* AppDelegate.swift */,
+				45A0FBB529194AA400F4F0F9 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		45A0FBCB2919580B00F4F0F9 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				45A0FBB929194AA400F4F0F9 /* Main.storyboard */,
+				45A0FBBE29194AA500F4F0F9 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		45A0FBD429195C3800F4F0F9 /* Core Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				45A0FBB729194AA400F4F0F9 /* HomeViewController.swift */,
+				45A0FBCC29195A8100F4F0F9 /* ExploreViewController.swift */,
+				45A0FBCE29195B2200F4F0F9 /* CameraViewController.swift */,
+				45A0FBD029195BA300F4F0F9 /* NotificationsViewController.swift */,
+				45A0FBD229195BDD00F4F0F9 /* ProfileViewController.swift */,
+			);
+			path = "Core Tabs";
+			sourceTree = "<group>";
+		};
+		45A0FBD529195CE900F4F0F9 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				45A0FBD629195CFB00F4F0F9 /* Onboarding */,
+				45A0FBDB29195DAC00F4F0F9 /* PostViewController.swift */,
+				45A0FBDD29195E4700F4F0F9 /* EditProfileViewController.swift */,
+				45A0FBDF29195E9100F4F0F9 /* SettingsViewController.swift */,
+				45A0FBE129195ECC00F4F0F9 /* ListViewController.swift */,
+				45A0FBE329195F0200F4F0F9 /* SearchViewController.swift */,
+				45A0FBE529195F3300F4F0F9 /* SearchResultViewController.swift */,
+				45A0FBE729195FC900F4F0F9 /* PostEditorViewController.swift */,
+				45A0FBE92919600700F4F0F9 /* PublishPostViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		45A0FBD629195CFB00F4F0F9 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				45A0FBD729195D3500F4F0F9 /* LoginViewController.swift */,
+				45A0FBD929195D5400F4F0F9 /* RegistrationViewController.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +244,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A0FBB829194AA400F4F0F9 /* ViewController.swift in Sources */,
+				45A0FBDE29195E4700F4F0F9 /* EditProfileViewController.swift in Sources */,
+				45A0FBCD29195A8100F4F0F9 /* ExploreViewController.swift in Sources */,
+				45A0FBEA2919600700F4F0F9 /* PublishPostViewController.swift in Sources */,
+				45A0FBCF29195B2200F4F0F9 /* CameraViewController.swift in Sources */,
+				45A0FBB829194AA400F4F0F9 /* HomeViewController.swift in Sources */,
+				45A0FBDA29195D5400F4F0F9 /* RegistrationViewController.swift in Sources */,
+				45A0FBE829195FC900F4F0F9 /* PostEditorViewController.swift in Sources */,
+				45A0FBDC29195DAC00F4F0F9 /* PostViewController.swift in Sources */,
+				45A0FBD129195BA300F4F0F9 /* NotificationsViewController.swift in Sources */,
+				45A0FBE629195F3300F4F0F9 /* SearchResultViewController.swift in Sources */,
+				45A0FBD829195D3500F4F0F9 /* LoginViewController.swift in Sources */,
+				45A0FBE429195F0200F4F0F9 /* SearchViewController.swift in Sources */,
+				45A0FBD329195BDD00F4F0F9 /* ProfileViewController.swift in Sources */,
 				45A0FBB429194AA400F4F0F9 /* AppDelegate.swift in Sources */,
 				45A0FBB629194AA400F4F0F9 /* SceneDelegate.swift in Sources */,
+				45A0FBE229195ECC00F4F0F9 /* ListViewController.swift in Sources */,
+				45A0FBE029195E9100F4F0F9 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
